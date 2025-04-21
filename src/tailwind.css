@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+	--font-sans: Poppins, sans-serif;
+	--color-black: #130012;
+	--color-white: #F9F8F7;
+	--color-primary: #F6AD48;
+	--color-secondary: #EC6700;
+	--color-accent: #D7003A;
+	--color-accent2: #674196;
+	--color-accent3: #615C66;
+	--color-accent4: #F18D00;
+	--color-accent5: #F9D5D6;
+}
+
+@layer utilities {
+	body {
+		@apply font-sans text-black text-lg overflow-x-hidden flex;
+	}
+
+	#root {
+		@apply w-full
+	}
+
+	.content {
+		@apply w-full max-w-[80rem] mx-auto p-10 lg:p-20;
+	}
+
+	.flex-col\/center {
+		@apply flex flex-col justify-center items-center;
+	}
+}

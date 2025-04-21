@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://joshua-mamangun.github.io/marketing-1/sitemap.xml
