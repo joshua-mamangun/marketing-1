@@ -8,11 +8,11 @@ const data = {
 	section1: {
 		title: 'Marketing #1',
 		images: [
-			{ label: 'image 1', url: '/image.jpg', alt: 'Sample Image' },
-			{ label: 'image 2', url: '/image.jpg', alt: 'Sample Image' },
-			{ label: 'image 3', url: '/image.jpg', alt: 'Sample Image' },
-			{ label: 'image 4', url: '/image.jpg', alt: 'Sample Image' },
-			{ label: 'image 5', url: '/image.jpg', alt: 'Sample Image' },
+			{ label: 'image 1', url: './image.jpg', alt: 'Sample Image' },
+			{ label: 'image 2', url: './image.jpg', alt: 'Sample Image' },
+			{ label: 'image 3', url: './image.jpg', alt: 'Sample Image' },
+			{ label: 'image 4', url: './image.jpg', alt: 'Sample Image' },
+			{ label: 'image 5', url: './image.jpg', alt: 'Sample Image' },
 		],
 	},
 	section2: {
@@ -24,28 +24,28 @@ const data = {
 				title: 'Change the BG when scrolled every Image', 
 				desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
 				bgColor: 'bg-accent4',
-				url: '/image.jpg',
+				url: './image.jpg',
 				alt: 'Sample Image'
 			},
 			{ 
 				title: 'Sed do eiusmod tempor', 
 				desc: 'Nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea.',
 				bgColor: 'bg-accent5',
-				url: '/image.jpg',
+				url: './image.jpg',
 				alt: 'Sample Image'
 			},
 			{ 
 				title: 'Nostrud exercitation ullamco', 
 				desc: 'Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse.',
 				bgColor: 'bg-white', 
-				url: '/image.jpg',
+				url: './image.jpg',
 				alt: 'Sample Image' 
 			},
 			{ 
 				title: 'Consectetur adipiscing elit', 
 				desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.',
 				bgColor: 'bg-primary', 
-				url: '/image.jpg',
+				url: './image.jpg',
 				alt: 'Sample Image' 
 			},
 		],
@@ -55,19 +55,19 @@ const data = {
 			{ 
 				title: 'Horizontal Scrolling Using Vertical Scroll', 
 				desc: 'Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.', 
-				url: '/image.jpg',
+				url: './image.jpg',
 				alt: 'Sample Image' 
 			},
 			{ 
 				title: 'Sed Ut Perspiciatis', 
 				desc: 'Natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.', 
-				url: '/image.jpg',
+				url: './image.jpg',
 				alt: 'Sample Image' 
 			},
 			{ 
 				title: 'Quis Autem Vel Eum Iure',
 				desc: 'Reprehenderit qui in ea voluptate velit esse quam nihil molestiae.',
-				url: '/image.jpg',
+				url: './image.jpg',
 				alt: 'Sample Image' 
 			},
 		],
